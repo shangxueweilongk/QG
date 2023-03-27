@@ -42,6 +42,10 @@ print(a)
 a=np.empty((3,4))#((行数，列数))
 print(a)
 
+#5、对角矩阵
+a=np.diag
+print(a)
+
 #用range创建
 a=np.arange(2,14)#步长默认为1
 print(a)
@@ -273,7 +277,7 @@ print(np.array_split(a,3,axis=1))#对列分成三部分
 
 ---
 
-+ ### 7、numpy的copy和deep copy
++ ### 7、numpy的copy和deep copy(与copy模块不同)
 
 ~~~
 import numpy as np
